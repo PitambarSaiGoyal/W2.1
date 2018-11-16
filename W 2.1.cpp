@@ -41,7 +41,7 @@ int main()
 	doc.open(path,ios_base::app);
 	
 	doc<<"<html>\n<head>\n<title>"<<proj_name<<"\n</title>\n</head>\n";
-	doc<<"<body>\n<h1 style=\"font-family:CMU Serif;text-align:center;\">\n";;//Add  style=\"padding: 25px 225px 75px;\"
+	doc<<"<body>\n<h1 style=\"font-family:CMU Serif;text-align:center;\">\n";
 	doc<<proj_name<<"\n</h1>\n";
 	
 	char line[1000],Line[1000]; string l,L;//use strcpy to convert between them
